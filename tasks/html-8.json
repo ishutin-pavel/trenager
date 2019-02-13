@@ -1,0 +1,10 @@
+{
+"1" : {"question": "Атрибут: адрес ссылки.", "rightAnswer": "href"},
+"2" : {"question": "Атрибут: задаёт путь к файлу", "rightAnswer": "src"},
+"3" : {"question": "Атрибут: определяет ширину", "rightAnswer": "width"},
+"4" : {"question": "Атрибут: определяет высоту", "rightAnswer": "height"},
+"5" : {"question": "Атрибут: определяет альтернативный текст", "rightAnswer": "alt"},
+"6" : {"question": "Атрибут: указывает стиль элемента", "rightAnswer": "style"},
+"7" : {"question": "Атрибут: всплывающая подсказка при наведении мыши", "rightAnswer": "title"},
+"8" : {"question": "Атрибут: определяет уникальный идентификатор для элемента", "rightAnswer": "id"}
+}

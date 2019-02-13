@@ -1,0 +1,14 @@
+{
+"1" : {"question": "Маркированный список.", "rightAnswer": "<ul>"},
+"2" : {"question": "Нумерованный список (числовой или алфавитный).", "rightAnswer": "<ol>"},
+"3" : {"question": "Элемент маркированного или нумерованного списка", "rightAnswer": "<li>"},
+"4" : {"question": "Элемент-контейнер для выпадающего списка элемента 'input'. Варианты значений помещаются в элементы 'option'.", "rightAnswer": "<datalist>"},
+"5" : {"question": "Раскрывающийся виджет.", "rightAnswer": "<details>"},
+"6" : {"question": "Заголовок для контейнера <details>", "rightAnswer": "<summary>"},
+"7" : {"question": "Контейнер с заголовком для группы элементов <option>", "rightAnswer": "<optgroup>"},
+"8" : {"question": "Определяет вариант/опцию для выбора в раскрывающемся списке 'select', 'optgroup' или 'datalist'", "rightAnswer": "<option>"},
+"9" : {"question": "Контейнер для термина", "rightAnswer": "<dl>"},
+"10" : {"question": "Определяет слово как термин, выделяя его курсивом. Текст, идущий следом, должен содержать расшифровку этого термина", "rightAnswer": "<dfn>"},
+"11" : {"question": "Термин", "rightAnswer": "<dt>"},
+"12" : {"question": "Определение термина", "rightAnswer": "<dd>"}
+}

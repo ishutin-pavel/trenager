@@ -1,0 +1,12 @@
+{
+"1" : {"question": "Тег для создания таблицы", "rightAnswer": "<table>"},
+"2" : {"question": "Подпись к таблице. Вставляется сразу после тега <table>", "rightAnswer": "<caption>"},
+"3" : {"question": "Заголовок таблицы", "rightAnswer": "<thead>"},
+"4" : {"question": "Определяет тело таблицы", "rightAnswer": "<tbody>"},
+"5" : {"question": "Футер таблицы. Указывается перед <tbody>", "rightAnswer": "<tfoot>"},
+"6" : {"question": "Строка таблицы", "rightAnswer": "<tr>"},
+"7" : {"question": "Заголовок ячейки", "rightAnswer": "<th>"},
+"8" : {"question": "Ячейка таблицы", "rightAnswer": "<td>"},
+"9" : {"question": "Выбирает для форматирования один или несколько столбцов таблицы, не содержащих информацию одного типа.", "rightAnswer": "<col>"},
+"10" : {"question": "Создает структурную группу столбцов, выделяющую множество логически однородных ячеек.", "rightAnswer": "<colgroup>"}
+}

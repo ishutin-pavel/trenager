@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>IT Тренер</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <nav class="menu">
+    <a class="menu__item" href="/tasks/html-1.json">Базовые Cтруктурные Разметка</a>
+    <a class="menu__item" href="/tasks/html-2.json">Таблица</a>
+    <a class="menu__item" href="/tasks/html-3.json">Семантические</a>
+    <a class="menu__item" href="/tasks/html-4.json">Форма</a>
+    <a class="menu__item" href="/tasks/html-5.json">Списки</a>
+    <a class="menu__item" href="/tasks/html-6.json">Элементы</a>
+    <a class="menu__item" href="/tasks/html-7.json">Оформление</a>
+    <a class="menu__item" href="/tasks/html-8.json">Универсальные атрибуты</a>
+  </nav>
+  <div id="images"></div>
+<div class="container">
+  <div class="floating-background">
+    <div id="question" class="question"></div>
+
+    <form action="" id="answer_form">
+      <input type="text" class="userAnswer">
+    </form>
+    <div class="message"></div>
+    <p>Введите ответ и нажмите <kbd>&lt;Enter&gt;</kbd></p>
+    <p>Всего вопросов: <output class="count_max"></output></p>
+    <p>Текущий вопрос: <output class="count"></output></p>
+
+    <div class="history"></div>
+  </div>
+
+</div><!-- .container -->
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/myscript.js"></script>
+
+</body>
+</html>
