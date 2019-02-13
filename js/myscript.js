@@ -164,6 +164,9 @@ $(".menu__parent .menu__item").on('click', function(e) {
 
   var theme = $(this).attr('href');
 
+  $(this).parent('.menu__parent').find('.menu__item').removeClass('active');
+  $(this).addClass('active');
+
   $(".menu__child").slideUp();
 
   $("." + theme).slideDown();
@@ -176,6 +179,9 @@ $(".menu__parent .menu__item").on('click', function(e) {
 $(".menu__child .menu__item").on('click', function(e) {
 
   e.preventDefault();//отменяем действие по умолчанию
+
+  $(this).parent('.menu__child').find('.menu__item').removeClass('active');
+  $(this).addClass('active');
 
   count = 1;//cброс счетчика
 
