@@ -6,17 +6,74 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+
   <nav class="menu">
-    <a class="menu__item" href="/tasks/html-1.json">Базовые Cтруктурные Разметка</a>
-    <a class="menu__item" href="/tasks/html-2.json">Таблица</a>
-    <a class="menu__item" href="/tasks/html-3.json">Семантические</a>
-    <a class="menu__item" href="/tasks/html-4.json">Форма</a>
-    <a class="menu__item" href="/tasks/html-5.json">Списки</a>
-    <a class="menu__item" href="/tasks/html-6.json">Элементы</a>
-    <a class="menu__item" href="/tasks/html-7.json">Оформление</a>
-    <a class="menu__item" href="/tasks/html-8.json">Универсальные атрибуты</a>
-  </nav>
-  <div id="images"></div>
+
+    <div class="menu__parent">
+      <a class="menu__item" href="level_html">HTML</a>
+      <a class="menu__item" href="level_css">CSS</a>
+      <a class="menu__item" href="level_js">JS</a>
+      <a class="menu__item" href="level_jq">jQuery</a>
+      <a class="menu__item" href="level_php">PHP</a>
+    </div><!-- .level_1 -->
+
+    <div class="menu__child level_html">
+      <a class="menu__item" href="/tasks/html-1.json">Базовые Cтруктурные Разметка</a>
+      <a class="menu__item" href="/tasks/html-2.json">Таблица</a>
+      <a class="menu__item" href="/tasks/html-3.json">Семантические</a>
+      <a class="menu__item" href="/tasks/html-4.json">Форма</a>
+      <a class="menu__item" href="/tasks/html-5.json">Списки</a>
+      <a class="menu__item" href="/tasks/html-6.json">Элементы</a>
+      <a class="menu__item" href="/tasks/html-7.json">Оформление</a>
+      <a class="menu__item" href="/tasks/html-8.json">Универсальные атрибуты</a>
+    </div><!-- .level_html -->
+
+    <div class="menu__child level_css">
+      <a class="menu__item" href="/tasks/css-1.json">CSS-1</a>
+      <a class="menu__item" href="/tasks/css-2.json">CSS-2</a>
+      <a class="menu__item" href="/tasks/css-3.json">CSS-3</a>
+      <a class="menu__item" href="/tasks/css-4.json">CSS-4</a>
+      <a class="menu__item" href="/tasks/css-5.json">CSS-5</a>
+      <a class="menu__item" href="/tasks/css-6.json">CSS-6</a>
+      <a class="menu__item" href="/tasks/css-7.json">CSS-7</a>
+      <a class="menu__item" href="/tasks/css-8.json">CSS-8</a>
+    </div>
+
+    <div class="menu__child level_js">
+      <a class="menu__item" href="/tasks/css-1.json">JS-1</a>
+      <a class="menu__item" href="/tasks/css-2.json">JS-2</a>
+      <a class="menu__item" href="/tasks/css-3.json">JS-3</a>
+      <a class="menu__item" href="/tasks/css-4.json">JS-4</a>
+      <a class="menu__item" href="/tasks/css-5.json">JS-5</a>
+      <a class="menu__item" href="/tasks/css-6.json">JS-6</a>
+      <a class="menu__item" href="/tasks/css-7.json">JS-7</a>
+      <a class="menu__item" href="/tasks/css-8.json">JS-8</a>
+    </div>
+
+    <div class="menu__child level_jq">
+      <a class="menu__item" href="/tasks/css-1.json">jQuery-1</a>
+      <a class="menu__item" href="/tasks/css-2.json">jQuery-2</a>
+      <a class="menu__item" href="/tasks/css-3.json">jQuery-3</a>
+      <a class="menu__item" href="/tasks/css-4.json">jQuery-4</a>
+      <a class="menu__item" href="/tasks/css-5.json">jQuery-5</a>
+      <a class="menu__item" href="/tasks/css-6.json">jQuery-6</a>
+      <a class="menu__item" href="/tasks/css-7.json">jQuery-7</a>
+      <a class="menu__item" href="/tasks/css-8.json">jQuery-8</a>
+    </div>
+
+    <div class="menu__child level_php">
+      <a class="menu__item" href="/tasks/css-1.json">PHP-1</a>
+      <a class="menu__item" href="/tasks/css-2.json">PHP-2</a>
+      <a class="menu__item" href="/tasks/css-3.json">PHP-3</a>
+      <a class="menu__item" href="/tasks/css-4.json">PHP-4</a>
+      <a class="menu__item" href="/tasks/css-5.json">PHP-5</a>
+      <a class="menu__item" href="/tasks/css-6.json">PHP-6</a>
+      <a class="menu__item" href="/tasks/css-7.json">PHP-7</a>
+      <a class="menu__item" href="/tasks/css-8.json">PHP-8</a>
+    </div>
+
+  </nav><!-- .menu -->
+
 <div class="container">
   <div class="floating-background">
     <div id="question" class="question"></div>
@@ -26,13 +83,19 @@
     </form>
     <div class="message"></div>
     <p>Введите ответ и нажмите <kbd>&lt;Enter&gt;</kbd></p>
-    <p>Всего вопросов: <output class="count_max"></output></p>
-    <p>Текущий вопрос: <output class="count"></output></p>
+
 
     <div class="history"></div>
   </div>
 
 </div><!-- .container -->
+
+<footer class="footer">
+  <div class="container">
+    <span>Всего вопросов: <output class="count_max"></output></span>
+    <span>Текущий вопрос: <output class="count"></output></span>
+  </div><!-- .container -->
+</footer>
 
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/myscript.js"></script>

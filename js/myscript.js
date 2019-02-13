@@ -1,17 +1,17 @@
 $(document).ready(function() {
 
 
+
 //Установка фокуса для ввода ответа
 $( ".userAnswer" ).focus();
 
 //Первый урок по умолчанию
-var url = $(".menu__item:first-child").attr('href');
+var url = $(".level_html .menu__item:first-child").attr('href');
 //console.log(url);
 
-var count = 1;
-var count_max = 1;
-var allTasks = {};
-console.log("После объявления: " + allTasks);
+var count = 1;//Счетчик номер задания
+var count_max = 1;//Всего заданий
+var allTasks = {};//Объект для заданий
 
 /*
 * Функция очистки подсказки и поля для ввода
@@ -46,6 +46,17 @@ function getAllTasks() {
 
 }
 
+/*
+* Функция обновления задания
+*/
+function updateTask() {
+
+  task = allTasks[count];
+
+  //Вывод первого вопроса
+  $(".question").html(task.question);
+
+}//updateTask
 
 /*
 * Функция Запуск урока
@@ -67,11 +78,7 @@ function Start() {
   $(".count_max").html(count_max); //Всего вопросов - вывод в html
   $(".count").html(count);//Текущий вопрос - вывод в html
 
-  task = allTasks[count];
-  //console.log(task);
-
-  //Вывод первого вопроса
-  $(".question").html(task.question);
+  updateTask();
 
 } // Start
 
@@ -92,17 +99,13 @@ function nextQuestion() {
 
     $(".count").html(count);//Текущий вопрос - вывод в html
 
-    task = allTasks[count];
-
-    $(".question").text(task.question);
+    updateTask();
 
   } else {
 
     count++;
 
-    task = allTasks[count];
-
-    $(".question").text(task.question);
+    updateTask();
 
     $(".count").html(count);
 
@@ -154,7 +157,23 @@ $("#answer_form").submit(function() {
 /*
 * Меню
 */
-$(".menu__item").on('click', function(e) {
+$(".menu__child").hide();
+$(".level_html").show();
+
+$(".menu__parent .menu__item").on('click', function(e) {
+
+  var theme = $(this).attr('href');
+
+  $(".menu__child").slideUp();
+
+  $("." + theme).slideDown();
+
+  return false;
+
+});
+
+
+$(".menu__child .menu__item").on('click', function(e) {
 
   e.preventDefault();//отменяем действие по умолчанию
 
