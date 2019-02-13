@@ -1,0 +1,14 @@
+{
+"1" : {"question": "Примените фильтр к изображению: размытие по Гаусу 3px.", "rightAnswer": "filter: blur(3px);"},
+"2" : {"question": "Примените фильтр к изображению: увеличить яркость на 30%", "rightAnswer": "filter: brightness(30%);"},
+"3" : {"question": "Примените фильтр к изображению: увеличить контрастность на 20%", "rightAnswer": "filter: contrast(20%);"},
+"4" : {"question": "Примените фильтр к изображению: добавить тень с параметрами 2px 3px 5px black.", "rightAnswer": "filter: drop-shadow(2px 3px 5px black);"},
+"5" : {"question": "Примените фильтр к изображению: обесцветить на 90%", "rightAnswer": "filter: grayscale(90%);"},
+"6" : {"question": "Примените фильтр к изображению: поменять цвета изображения в цветовом круге на 180 градусов.", "rightAnswer": "filter: hue-rotate(180deg);"},
+"7" : {"question": "Примените фильтр к изображению: сделать негатив изображения на 100%.", "rightAnswer": "filter: invert(100%);"},
+"8" : {"question": "Примените фильтр к изображению: сделайте изображение прозрачным на 10%. filter: opacity(90%);"},
+"9" : {"question": "Примените фильтр к изображению: увеличьте насыщенность цветов в 2 раза", "rightAnswer": "filter: saturate(200%);"},
+"10" : {"question": "Примените фильтр к изображению: имитация старины 150% filter: sepia(150%);"},
+"11" : {"question": "Примените фильтр к изображению: внешний svg-фильтр c id='filterId' в этом документе.", "rightAnswer": "filter: url(#filterId);"},
+"12" : {"question": "Примените фильтр к изображению: внешний svg-фильтр c id='filterId' находится в файле filter.svg.", "rightAnswer": "filter: url(filter.svg#filterId);"}
+}

@@ -54,7 +54,7 @@ function updateTask() {
   task = allTasks[count];
 
   //Вывод первого вопроса
-  $(".question").html(task.question);
+  $(".question").text(task.question);
 
 }//updateTask
 
