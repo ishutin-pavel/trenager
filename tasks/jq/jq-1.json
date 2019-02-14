@@ -1,12 +1,12 @@
 {
-"1" : {"question": "Функция: спрятать", "rightAnswer": "hide();"},
-"2" : {"question": "Функция: показать", "rightAnswer": "show();"},
-"3" : {"question": "Функция: добавить класс", "rightAnswer": "addClass();"},
-"4" : {"question": "Функция: удалить класс", "rightAnswer": "removeClass();"},
-"5" : {"question": "Функция: переключить класс", "rightAnswer": "toggleClass();"},
-"6" : {"question": "Функция: получить/установить ширину", "rightAnswer": "width();"},
-"7" : {"question": "Функция: получить/установить высоту", "rightAnswer": "height();"},
-"8" : {"question": "Функция: получить/установить value", "rightAnswer": "val();"},
-"9" : {"question": "Функция: получить/установить код html", "rightAnswer": "html();"},
-"10" : {"question": "Функция: получить/установить текст", "rightAnswer": "text();"}
+"1" : {"question": "Функция: спрятать", "rightAnswer": ".hide();"},
+"2" : {"question": "Функция: показать", "rightAnswer": ".show();"},
+"3" : {"question": "Функция: добавить класс", "rightAnswer": ".addClass();"},
+"4" : {"question": "Функция: удалить класс", "rightAnswer": ".removeClass();"},
+"5" : {"question": "Функция: переключить класс", "rightAnswer": ".toggleClass();"},
+"6" : {"question": "Функция: получить/установить ширину", "rightAnswer": ".width();"},
+"7" : {"question": "Функция: получить/установить высоту", "rightAnswer": ".height();"},
+"8" : {"question": "Функция: получить/установить value", "rightAnswer": ".val();"},
+"9" : {"question": "Функция: получить/установить код html", "rightAnswer": ".html();"},
+"10" : {"question": "Функция: получить/установить текст", "rightAnswer": ".text();"}
 }
