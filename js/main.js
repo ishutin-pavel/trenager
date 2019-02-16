@@ -1,15 +1,5 @@
 $(document).ready(function() {
 
-$(".floating-background").mouseenter(function(event) {
-  /* Act on the event */
-  console.log('mouseenter');
-}).mouseleave(function (event) {
-  console.log('mouseleave');
-}).mouseout(function() {
-  // body...
-  console.log('mouseout');
-});
-
 //Установка фокуса для ввода ответа
 $( ".userAnswer" ).focus();
 
