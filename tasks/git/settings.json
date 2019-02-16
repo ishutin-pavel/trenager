@@ -1,0 +1,5 @@
+{
+  "1" : {"question": "Установить глобально имя пользователя 'Ishutin Pavel' ", "rightAnswer": "git config --global user.name 'Ishutin Pavel'"},
+  "2" : {"question": "Установить глобально email ishutin-pavel@mail.ru", "rightAnswer": "git config --global user.email ishutin-pavel@mail.ru"},
+  "3" : {"question": "Включить цвет", "rightAnswer": "git config --global color.ui true"}
+}

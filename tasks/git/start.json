@@ -1,0 +1,7 @@
+{
+  "1" : {"question": "Создать новый репозиторий", "rightAnswer": "git init"},
+  "2" : {"question": "Добавить все файлы в область индексирования", "rightAnswer": "git add ."},
+  "3" : {"question": "Исключить файл index.html из области индексирования", "rightAnswer": "git reset HEAD index.html"},
+  "3" : {"question": "Создать коммит с комментарием  'first commit'", "rightAnswer": "git commit -m 'first commit'"},
+  "3" : {"question": "Вывести статус", "rightAnswer": "git status"}
+}

@@ -1,0 +1,6 @@
+{
+  "1" : {"question": "Вывести полный лог", "rightAnswer": "git log --all"},
+  "2" : {"question": "Временно переключиться на коммит с контрольной суммой 9ec030d", "rightAnswer": "git checkout 9ec030d"},
+  "3" : {"question": "Переключиться обратно", "rightAnswer": "git checkout master"},
+  "4" : {"question": "Переключиться на коммит(9ec030d), чтобы продолжить работу с него, создав новую ветку new-line", "rightAnswer": "git checkout -b new-line 9ec030d"}
+}
