@@ -1,0 +1,9 @@
+{
+  "1" : {"question": "Показать ветки", "rightAnswer": "git branch"},
+  "2" : {"question": "Создать ветку testing", "rightAnswer": "git branch testing"},
+  "3" : {"question": "Перейти на ветку testing", "rightAnswer": "git checkout testing"},
+  "4" : {"question": "Создать ветку testing и перейти на неё", "rightAnswer": "git checkout -b testing"},
+  "5" : {"question": "Вернуться на ветку master", "rightAnswer": "git checkout master"},
+  "6" : {"question": "Слить ветку testing в ветку master. Нужно находиться в ветке master.", "rightAnswer": "git merge testing"},
+  "7" : {"question": "Удалить верку testing", "rightAnswer": "git branch -d testing"}
+}
