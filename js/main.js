@@ -177,9 +177,9 @@ $(".menu__parent .menu__item").on('click', function(e) {
   $(this).parent('.menu__parent').find('.menu__item').removeClass('active');
   $(this).addClass('active');
 
-  $(".menu__child").slideUp();
+  $(".menu__child").stop().slideUp();
 
-  $("." + theme).slideDown();
+  $("." + theme).stop().slideDown();
 
   return false;
 
