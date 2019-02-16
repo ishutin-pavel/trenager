@@ -8,7 +8,7 @@
 "7" : {"question": "Примените фильтр к изображению: сделать негатив изображения на 100%.", "rightAnswer": "filter: invert(100%);"},
 "8" : {"question": "Примените фильтр к изображению: сделайте изображение прозрачным на 10%.", "rightAnswer": "filter: opacity(90%);"},
 "9" : {"question": "Примените фильтр к изображению: увеличьте насыщенность цветов в 2 раза", "rightAnswer": "filter: saturate(200%);"},
-"10" : {"question": "Примените фильтр к изображению: имитация старины 150%", "rightAnswer": " filter: sepia(150%);"},
+"10" : {"question": "Примените фильтр к изображению: имитация старины 150%", "rightAnswer": "filter: sepia(150%);"},
 "11" : {"question": "Примените фильтр к изображению: внешний svg-фильтр c id='filterId' в этом документе.", "rightAnswer": "filter: url(#filterId);"},
 "12" : {"question": "Примените фильтр к изображению: внешний svg-фильтр c id='filterId' находится в файле filter.svg.", "rightAnswer": "filter: url(filter.svg#filterId);"}
 }
