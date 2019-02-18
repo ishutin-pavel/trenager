@@ -112,6 +112,14 @@ function nextQuestion() {
 }//nextQuestion
 
 
+/*
+* Функция удаления пробелов
+*/
+function del_spaces(str)
+{
+  str = str.replace(/\s/g, '');
+  return str;
+}
 
 /*
 * Проверка ответа
@@ -122,9 +130,12 @@ $("#answer_form").submit(function() {
 
    var userAnswer = $(".userAnswer").val();
 
+   userAnswer = del_spaces(userAnswer);//удаления пробелов
+   rightAnswer = del_spaces(task.rightAnswer);//удаления пробелов
+
    console.log( $( this ).serialize() );
 
-   if ( userAnswer == task.rightAnswer ){
+   if ( userAnswer == rightAnswer ){
 
      setTimeout(clearMessage, 300);//Очистка подсказки и поля для ввода
 
