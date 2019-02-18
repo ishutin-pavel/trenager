@@ -1,7 +1,6 @@
 {
-  "1" : {"question": "Вывести историю: всю", "rightAnswer": "git log --all"},
-  "2" : {"question": "Вывести историю: в одну линию, графически, всю", "rightAnswer": "git log --oneline --graph --all"},
-  "3" : {"question": "Временно переключиться на коммит с контрольной суммой 9ec030d", "rightAnswer": "git checkout 9ec030d"},
-  "4" : {"question": "Переключиться обратно", "rightAnswer": "git checkout master"},
-  "5" : {"question": "Переключиться на коммит(9ec030d), чтобы продолжить работу с него, создав новую ветку new-line", "rightAnswer": "git checkout -b new-line 9ec030d"}
+  "1" : {"question": "Вывести историю", "rightAnswer": "git log"},
+  "2" : {"question": "Переключиться на коммит с контрольной суммой 9ec030d", "rightAnswer": "git checkout 9ec030d"},
+  "3" : {"question": "Переключиться обратно на master", "rightAnswer": "git checkout master"},
+  "4" : {"question": "Переключиться на коммит(9ec030d), чтобы продолжить работу с него, создав новую ветку new-line", "rightAnswer": "git checkout -b new-line 9ec030d"}
 }

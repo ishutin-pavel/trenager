@@ -157,7 +157,7 @@ $("#answer_form").submit(function() {
 
      $(".message").show().html("Правильный ответ: <xmp>" + task.rightAnswer + "</xmp>");
 
-     setTimeout(clearMessage, 1000);//Очистка подсказки и поля для ввода
+     setTimeout(clearMessage, 2000);//Очистка подсказки и поля для ввода
 
   }//check user answer
   return false;//отменяем отправку формы по умолчанию
