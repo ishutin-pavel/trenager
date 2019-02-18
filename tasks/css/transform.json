@@ -1,0 +1,15 @@
+{
+"1" : {"question": "Повернуть на 45 градусов", "rightAnswer": "transform: rotate(45deg);"},
+"2" : {"question": "Увеличить в 2 раза", "rightAnswer": "transform: scale(2);"},
+"3" : {"question": "Уменьшить в 2 раза", "rightAnswer": "transform: scale(0.5);"},
+"4" : {"question": "Увеличить по ширине в 2 раза", "rightAnswer": "transform: scaleX(2);"},
+"5" : {"question": "Уменьшить по высоте в 2 раза", "rightAnswer": "transform: scaleY(0.5);"},
+"6" : {"question": "Сдвинуть по оси X на 50px", "rightAnswer": "transform: translateX(50px);"},
+"7" : {"question": "Сдвинуть по оси Y на 30px", "rightAnswer": "transform: translateY(30px);"},
+"8" : {"question": "Сдвинуть по оси X на 50px по оси Y на 100px", "rightAnswer": "transform: translate(50px, 100px);"},
+"9" : {"question": "Исказить по оси X на 5, а по оси Y на 10 градусов", "rightAnswer": "transform: skew(5deg, 10deg);"},
+"10" : {"question": "Исказить по оси X на 10 градусов", "rightAnswer": "transform: skewX(10deg);"},
+"11" : {"question": "Исказить по оси Y на 5 градусов", "rightAnswer": "transform: skewY(5deg);"},
+"12" : {"question": "Точка трансформации по уполчанию", "rightAnswer": "transform-origin: 50% 50%;"},
+"13" : {"question": "Увеличить в 1.5 раза и повернуть на -10 градусов", "rightAnswer": "transform: scale(1.5) rotate(-10deg);"}
+}

@@ -1,0 +1,18 @@
+{
+  "1" : {"question": "Создайте анимацию my_animation и задайте ключевые кадры from, 50%, to. Свойства не прописывать.", "rightAnswer": "@keyframes my_animation { from {} 50% {} to {} }"},
+  "2" : {"question": "Имя анимации mymove", "rightAnswer": "animation-name: mymove;"},
+  "3" : {"question": "Продолжительность анимации 2 секунды", "rightAnswer": "animation-duration: 2s;"},
+  "4" : {"question": "Задержка анимации 2 секунды", "rightAnswer": "animation-delay: 2s;"},
+  "5" : {"question": "Проиграть анимацию 3 раза", "rightAnswer": "animation-iteration-count: 3;"},
+  "6" : {"question": "Проигрывать анимацию бесконечно", "rightAnswer": "animation-iteration-count: infinite;"},
+  "7" : {"question": "Временная функция: анимация происходит равномерно", "rightAnswer": "animation-timing-function: linear;"},
+  "8" : {"question": "Временная функция: анимация начинается медленно, а затем плавно ускоряется в конце", "rightAnswer": "animation-timing-function: ease-in;"},
+  "9" : {"question": "Временная функция: анимация начинается быстро и плавно замедляется в конце", "rightAnswer": "animation-timing-function: ease-out;"},
+  "10" : {"question": "Временная функция: анимация медленно начинается и медленно заканчивается", "rightAnswer": "animation-timing-function: ease-in-out;"},
+  "11" : {"question": "Направление анимации: анимация проигрывается с начала и до конца", "rightAnswer": "animation-direction: normal;"},
+  "12" : {"question": "Направление анимации: анимация проигрывается с конца", "rightAnswer": "animation-direction: reverse;"},
+  "13" : {"question": "Направление анимации: анимация проигрывается с начала до конца, затем в обратном направлении", "rightAnswer": "animation-direction: alternate;"},
+  "14" : {"question": "Направление анимации: анимация проигрывается с конца до начала, затем в обратном направлении", "rightAnswer": "animation-direction: alternate-reverse;"},
+  "15" : {"question": "Краткая запись анимации", "rightAnswer": "animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-direction;"},
+  "16" : {"question": "Пауза анимации", "rightAnswer": "animation-play-state: paused;"}
+}

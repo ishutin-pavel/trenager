@@ -1,0 +1,14 @@
+{
+"1" : {"question": "Распишите свойство background", "rightAnswer": "background: background-attachment background-color background-image background-position background-repeat;"},
+"2" : {"question": "Зафиксировать фон", "rightAnswer": "background-attachment: fixed;"},
+"3" : {"question": "Позволяет перемещаться фону вместе с содержимым.", "rightAnswer": "background-attachment: scroll;"},
+"4" : {"question": "Белый фон #fff", "rightAnswer": "background-color: #fff;"},
+"5" : {"question": "Прозрачный фон", "rightAnswer": "background-color: transparent;"},
+"6" : {"question": "Установить изображение images/bg.jpg на фон", "rightAnswer": "background-image: url(images/bg.jpg);"},
+"7" : {"question": "Положение фонового изображения в левом верхнем углу (top left = left top = 0% 0%)", "rightAnswer": "background-position: top left;"},
+"8" : {"question": "Положение фонового изображения в правом нижнем углу (bottom right = right bottom = 100% 100%)", "rightAnswer": "background-position: bottom right;"},
+"9" : {"question": "Отменить повторение фона", "rightAnswer": "background-repeat: no-repeat;"},
+"10" : {"question": "Повторять фон", "rightAnswer": "background-repeat: repeat;"},
+"11" : {"question": "Повторять фон по оси Х", "rightAnswer": "background-repeat: repeat-x;"},
+"12" : {"question": "Повторять фон по оси Y", "rightAnswer": "background-repeat: repeat-y;"}
+}

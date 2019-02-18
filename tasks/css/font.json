@@ -1,0 +1,15 @@
+{
+"1" : {"question": "Краткая запись font", "rightAnswer": "font: font-style font-variant font-weight font-size/line-height font-family;"},
+"2" : {"question": "Сделать курсивом", "rightAnswer": "font-style: italic;"},
+"3" : {"question": "Отменить курсив", "rightAnswer": "font-style: normal;"},
+"4" : {"question": "Малые заглавные буквы", "rightAnswer": "font-variant: small-caps;"},
+"5" : {"question": "Отменить малые заглавные буквы", "rightAnswer": "font-variant: normal;"},
+"6" : {"question": "Сделать текст жирным", "rightAnswer": "font-weight: bold;"},
+"7" : {"question": "Отменить жирный текст", "rightAnswer": "font-weight: normal;"},
+"8" : {"question": "Размер шрифта 14px", "rightAnswer": "font-size: 14px;"},
+"9" : {"question": "Междустрочный интервал, интерлиньяж - 1.5", "rightAnswer": "line-height: 1.5;"},
+"10" : {"question": "Шрифт с засечками. Антиквенный.", "rightAnswer": "font-family: serif;"},
+"11" : {"question": "Шрифт без засечек. Рубленный шрифт. Гроте́ск.", "rightAnswer": "font-family: sans-serif;"},
+"12" : {"question": "Моноширинный шрифт", "rightAnswer": "font-family: monospace;"},
+"13" : {"question": "Краткая запись font", "rightAnswer": "font: font-style font-variant font-weight font-size/line-height font-family;"}
+}

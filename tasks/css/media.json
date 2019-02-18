@@ -1,13 +1,14 @@
 {
-"1" : {"question": "Стиль для < 1200px ", "rightAnswer": "@media (max-width: 1200px) {}"},
-"2" : {"question": "Стиль для < 992px", "rightAnswer": "@media (max-width: 992px) {}"},
-"3" : {"question": "Стиль для < 768px", "rightAnswer": "@media (max-width: 768px) {}"},
-"4" : {"question": "Стиль для < 480px", "rightAnswer": "@media (max-width: 480px) {}"},
-"5" : {"question": "Стиль для < 320px", "rightAnswer": "@media (max-width: 320px) {}"},
-"6" : {"question": "Стиль для > 320px", "rightAnswer": "@media (min-width: 320px) {}"},
-"7" : {"question": "Стиль для > 480px", "rightAnswer": "@media (min-width: 480px) {}"},
-"8" : {"question": "Стиль для > 768px", "rightAnswer": "@media (min-width: 768px) {}"},
-"9" : {"question": "Стиль для > 992px", "rightAnswer": "@media (min-width: 992px) {}"},
-"10" : {"question": "Стиль для > 1200px",  "rightAnswer": "@media (min-width: 1200px) {}"},
-"11" : {"question": "768px < Стиль для < 992px", "rightAnswer": "@media (min-width: 768px) and (max-width: 992px) {}"}
+"1" : {"question": "Введите 10 раз @media через пробел", "rightAnswer": "@media @media @media @media @media @media @media @media @media @media"},
+"2" : {"question": "Стиль для < 1200px ", "rightAnswer": "@media (max-width: 1200px) {}"},
+"3" : {"question": "Стиль для < 992px", "rightAnswer": "@media (max-width: 992px) {}"},
+"4" : {"question": "Стиль для < 768px", "rightAnswer": "@media (max-width: 768px) {}"},
+"5" : {"question": "Стиль для < 480px", "rightAnswer": "@media (max-width: 480px) {}"},
+"6" : {"question": "Стиль для < 320px", "rightAnswer": "@media (max-width: 320px) {}"},
+"7" : {"question": "Стиль для > 320px", "rightAnswer": "@media (min-width: 320px) {}"},
+"8" : {"question": "Стиль для > 480px", "rightAnswer": "@media (min-width: 480px) {}"},
+"9" : {"question": "Стиль для > 768px", "rightAnswer": "@media (min-width: 768px) {}"},
+"10" : {"question": "Стиль для > 992px", "rightAnswer": "@media (min-width: 992px) {}"},
+"11" : {"question": "Стиль для > 1200px",  "rightAnswer": "@media (min-width: 1200px) {}"},
+"12" : {"question": "768px < Стиль для < 992px", "rightAnswer": "@media (min-width: 768px) and (max-width: 992px) {}"}
 }
