@@ -1,5 +1,5 @@
 {
-  "1" : {"question": "Вывести полный лог", "rightAnswer": "git log --all"},
+  "1" : {"question": "Вывести историю: всю", "rightAnswer": "git log --all"},
   "2" : {"question": "Вывести историю: в одну линию, графически, всю", "rightAnswer": "git log --oneline --graph --all"},
   "3" : {"question": "Временно переключиться на коммит с контрольной суммой 9ec030d", "rightAnswer": "git checkout 9ec030d"},
   "4" : {"question": "Переключиться обратно", "rightAnswer": "git checkout master"},

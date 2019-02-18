@@ -1,0 +1,7 @@
+{
+  "1" : {"question": "Вывести историю", "rightAnswer": "git log"},
+  "2" : {"question": "Выйти из длинного списка", "rightAnswer": "q"},
+  "3" : {"question": "Вывести историю: всё", "rightAnswer": "git log --all"},
+  "4" : {"question": "Вывести историю: в одну линию", "rightAnswer": "git log --oneline"},
+  "5" : {"question": "Вывести историю: в одну линию, графически, всю", "rightAnswer": "git log --oneline --graph --all"}
+}

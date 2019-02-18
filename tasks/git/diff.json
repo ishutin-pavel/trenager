@@ -1,0 +1,9 @@
+{
+  "1" : {"question": "Показать разницу между последним коммитом и текущим состоянием (не проиндексированными файлами).", "rightAnswer": "git diff"},
+  "2" : {"question": "Показать разницу между последним коммитом и текущим состоянием файла index.html.", "rightAnswer": "git diff index.html"},
+  "3" : {"question": "Показать разницу между последним коммитом и областью индексирования (проиндексированными файлами).", "rightAnswer": "git diff --staged"},
+  "4" : {"question": "Показать разницу между последним коммитом и текущим состоянием, включая область индексирования.", "rightAnswer": "git diff --cached"},
+  "5" : {"question": "Сравнение коммитов: 4612297 и 5e356cf", "rightAnswer": "git diff 4612297 5e356cf"},
+  "6" : {"question": "Сравнение двух веток: branch1 branch2", "rightAnswer": "git diff branch1 branch2"},
+  "7" : {"question": "Сравнить index.html между двумя ветками branch1 и branch2", "rightAnswer": "git diff branch1 branch2 ./index.html"}
+}
