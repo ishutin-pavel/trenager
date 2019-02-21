@@ -1,0 +1,17 @@
+{
+  "" : {"question": "Преобразовать блок в контейнер CSS GRID", "rightAnswer": "display: grid;"},
+  "" : {"question": "CSS свойство: шаблон колонок", "rightAnswer": "grid-template-columns"},
+  "" : {"question": "CSS свойство: шаблон строк", "rightAnswer": "grid-template-rows"},
+  "" : {"question": "Шаблон колонок: 3 колонки по 1fr", "rightAnswer": "grid-template-columns: 1fr 1fr 1fr;"},
+  "" : {"question": "Шаблон колонок с чередованием: 3 колонки по 1fr", "rightAnswer": "grid-template-columns: repeat(3, 1fr);"},
+  "" : {"question": "CSS свойство: расстояние между колонками", "rightAnswer": "grid-column-gap"},
+  "" : {"question": "CSS свойство: расстояние между строками", "rightAnswer": "grid-row-gap"},
+  "" : {"question": "CSS свойство: расстояние между колонками и строками", "rightAnswer": "grid-gap"},
+  "" : {"question": "Единица измерения 1 fraction (фракция)", "rightAnswer": "1fr"},
+  "" : {"question": "CSS свойство: ширина столбца по умолчанию", "rightAnswer": "grid-auto-columns"},
+  "" : {"question": "CSS свойство: высота строки по умолчанию", "rightAnswer": "grid-auto-rows"},
+  "" : {"question": "Высота строки: минимум - 100px, максимум - по содержимому.", "rightAnswer": "grid-auto-rows: minmax(100px, auto);"},
+  "" : {"question": "Функция minmax(), применяется во всех свойствах", "rightAnswer": "minmax()"},
+  "" : {"question": "Функция repeat(), применяется в grid-template-*", "rightAnswer": "repeat()"},
+  "" : {"question": "CSS свойство: задать имя области", "rightAnswer": "grid-area"}
+}
