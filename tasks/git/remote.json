@@ -1,0 +1,8 @@
+{
+  "1" : {"question": "Показать имена настроенных удаленных серверов", "rightAnswer": "git remote"},
+  "2" : {"question": "Показать URL адреса удаленных серверов", "rightAnswer": "git remote -v"},
+  "3" : {"question": "Добавить удаленный репозиторий под коротким именем", "rightAnswer": "git remote add short_name url"},
+  "4" : {"question": "Скачать обновления с удаленного репозитория и слить с текущей веткой", "rightAnswer": "git pull"},
+  "5" : {"question": "Структура команды git push", "rightAnswer": "git push server_name vetka"},
+  "6" : {"question": "Отправить изменения на удаленный репозиторий 'origin' ветка 'master'", "rightAnswer": "git push origin master"}
+}

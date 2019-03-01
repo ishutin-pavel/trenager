@@ -2,5 +2,8 @@
   "1" : {"question": "Установить глобально имя пользователя 'Ishutin Pavel' ", "rightAnswer": "git config --global user.name 'Ishutin Pavel'"},
   "2" : {"question": "Установить глобально email ishutin-pavel@mail.ru", "rightAnswer": "git config --global user.email ishutin-pavel@mail.ru"},
   "3" : {"question": "Включить цветовое оформление консольного вывода глобально", "rightAnswer": "git config --global color.ui true"},
-  "4" : {"question": "Название файла со списком игнорирования", "rightAnswer": ".gitignore"}
+  "4" : {"question": "Название файла со списком игнорирования", "rightAnswer": ".gitignore"},
+  "5" : {"question": "Показать текущие настройки", "rightAnswer": "git config --list"},
+  "6" : {"question": "Вывести список тегов", "rightAnswer": "git tag"},
+  "7" : {"question": "Создать команду unstage", "rightAnswer": "git config --global alias.unstage 'reset HEAD --'"}
 }

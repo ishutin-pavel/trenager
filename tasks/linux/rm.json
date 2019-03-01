@@ -1,0 +1,9 @@
+{
+  "1" : {"question": "Удалить файл file.txt", "rightAnswer": "rm file.txt"},
+  "2" : {"question": "Удалить папку folder", "rightAnswer": "rm -r folder"},
+  "3" : {"question": "Удалить папку folder и показать что сделано.", "rightAnswer": "rm -r -v folder"},
+  "4" : {"question": "Удалить все файлы(не папки) из текущей директории и показать, что сделано.", "rightAnswer": "rm -v *"},
+  "5" : {"question": "Удалить рекурсивно и форсированно всё содержимое из папки system/cache/", "rightAnswer": "rm -r -f system/cache/*"},
+  "6" : {"question": "Удалить каталог cache и все его содержимое, но запрашивать подтверждение перед каждой операцией", "rightAnswer": "rm -r -i cache"},
+  "7" : {"question": "Удалить папку folder, если она пустая", "rightAnswer": "rm -d folder"}
+}

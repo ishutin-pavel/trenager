@@ -3,5 +3,7 @@
   "2" : {"question": "Выйти из длинного списка", "rightAnswer": "q"},
   "3" : {"question": "Вывести историю: всё", "rightAnswer": "git log --all"},
   "4" : {"question": "Вывести историю: в одну линию", "rightAnswer": "git log --oneline"},
-  "5" : {"question": "Вывести историю: в одну линию, графически, всю", "rightAnswer": "git log --oneline --graph --all"}
+  "5" : {"question": "Вывести историю: в одну линию, графически, всю", "rightAnswer": "git log --oneline --graph --all"},
+  "6" : {"question": "Вывести историю: показать разницу внесенную каждым коммитом", "rightAnswer": "git log -p"},
+  "7" : {"question": "Вывести историю: ограничиться 2-мя последними коммитами", "rightAnswer": "git log -2"}
 }

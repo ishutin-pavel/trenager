@@ -1,0 +1,4 @@
+{
+  "1" : {"question": "Поиск в текущей директории по имени файла index.html", "rightAnswer": "find . -name index.html"},
+  "2" : {"question": "Поиск в папку folder по имени файла '*.psd'", "rightAnswer": "find folder -name '*.psd'"}
+}
