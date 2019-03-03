@@ -2,12 +2,12 @@
 "1" : {"question": "Применить переход к свойству width", "rightAnswer": "transition-property: width;"},
 "2" : {"question": "Применить переход ко всем свойствам", "rightAnswer": "transition-property: all;"},
 "3" : {"question": "Продолжительность перехода 0.2 секунды", "rightAnswer": "transition-duration: 0.2s;"},
-"4" : {"question": "Временная функция перехода: переход происходит равномерно на протяжении всего времени, без колебаний в скорости.", "rightAnswer": "transition-timing-function: linear;"},
-"5" : {"question": "Временная функция перехода: переход начинается медленно, разгоняется быстро и замедляется в конце.", "rightAnswer": "transition-timing-function: ease;"},
-"6" : {"question": "Временная функция перехода: переход начинается медленно, а затем плавно ускоряется в конце.", "rightAnswer": "transition-timing-function: ease-in;"},
-"7" : {"question": "Временная функция перехода: переход начинается быстро и плавно замедляется в конце.", "rightAnswer": "transition-timing-function: ease-out;"},
-"8" : {"question": "Временная функция перехода: переход медленно начинается и медленно заканчивается.", "rightAnswer": "transition-timing-function: ease-in-out;"},
+"4" : {"question": "Временная функция перехода: переход происходит равномерно на протяжении всего времени, без колебаний в скорости.", "rightAnswer": "linear;"},
+"5" : {"question": "Временная функция перехода: переход начинается медленно, разгоняется быстро и замедляется в конце.", "rightAnswer": "ease;"},
+"6" : {"question": "Временная функция перехода: переход начинается медленно, а затем плавно ускоряется в конце.", "rightAnswer": "ease-in;"},
+"7" : {"question": "Временная функция перехода: переход начинается быстро и плавно замедляется в конце.", "rightAnswer": "ease-out;"},
+"8" : {"question": "Временная функция перехода: переход медленно начинается и медленно заканчивается.", "rightAnswer": "ease-in-out;"},
 "9" : {"question": "Отсрочка перехода 0.5 секунды", "rightAnswer": "transition-delay: 0.5s;"},
-"10" : {"question": "Краткая запись перехода", "rightAnswer": "transition: transition-property transition-duration transition-timing-function transition-delay;"},
+"10" : {"question": "Краткая запись transition", "rightAnswer": "transition: property duration timing delay;"},
 "11" : {"question": "Применить переход только к трансформации.", "rightAnswer": "transition-property: transform;"}
 }
