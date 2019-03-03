@@ -1,0 +1,15 @@
+{
+  "1" : {"question": "Получить/Установить html код (первого элемента)", "rightAnswer": ".html();"},
+  "2" : {"question": "Получить/Установить текстовое содержимое", "rightAnswer": ".text();"},
+  "3" : {"question": "Удалить элементы", "rightAnswer": ".remove();"},
+  "4" : {"question": "Заменить элементы", "rightAnswer": ".replaceWith();"},
+  "5" : {"question": "Создать копию элемента", "rightAnswer": ".clone();"},
+  "6" : {"question": "Обернуть каждый элемент в заданный код", "rightAnswer": ".wrap();"},
+  "7" : {"question": "Обернуть все элементы набора в заданный код как единое целое", "rightAnswer": ".wrapAll();"},
+  "8" : {"question": "Обернуть содержимое элемента", "rightAnswer": ".wrapInner();"},
+  "9" : {"question": "Удалить родительский элемент", "rightAnswer": ".unwrap();"},
+  "10" : {"question": "Добавить содержимое внурть в конец элемента", "rightAnswer": ".append();"},
+  "11" : {"question": "Добавить содержимое внурть в начало элемента", "rightAnswer": ".prepend();"},
+  "12" : {"question": "Добавить содержимое перед элементом на том же уровне", "rightAnswer": ".before();"},
+  "13" : {"question": "Добавить содержимое после элементом на том же уровне", "rightAnswer": ".after();"}
+}

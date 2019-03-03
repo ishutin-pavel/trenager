@@ -1,9 +1,11 @@
 {
-"1" : {"question": "Display the matched elements by fading(затухание) them to opaque(непрозрачный).", "rightAnswer": ".fadeIn();"},
-"2" : {"question": "Hide the matched elements by fading(затухание) them to transparent(прозрачный).", "rightAnswer": ".fadeOut();"},
-"3" : {"question": "Adjust(управлять) the opacity of the matched elements.", "rightAnswer": ".fadeTo();"},
-"4" : {"question": "Display or hide the matched elements by animating their opacity(непрозрачность).", "rightAnswer": ".fadeToggle();"},
-"5" : {"question": "Display the matched elements with a sliding motion(скользящее движение).", "rightAnswer": ".slideDown();"},
-"6" : {"question": "Display or hide the matched elements with a sliding motion(скользящее движение).", "rightAnswer": ".slideToggle();"},
-"7" : {"question": "Hide the matched elements with a sliding motion(скользящее движение).", "rightAnswer": ".slideUp();"}
+  "1" : {"question": "Cпрятать элементы", "rightAnswer": ".hide();"},
+  "2" : {"question": "Показать элементы", "rightAnswer": ".show();"},
+  "3" : {"question": "Display the matched elements by fading(затухание) them to opaque(непрозрачный).", "rightAnswer": ".fadeIn();"},
+  "4" : {"question": "Hide the matched elements by fading(затухание) them to transparent(прозрачный).", "rightAnswer": ".fadeOut();"},
+  "5" : {"question": "Adjust(управлять) the opacity of the matched elements.", "rightAnswer": ".fadeTo();"},
+  "6" : {"question": "Display or hide the matched elements by animating their opacity(непрозрачность).", "rightAnswer": ".fadeToggle();"},
+  "7" : {"question": "Display the matched elements with a sliding motion(скользящее движение).", "rightAnswer": ".slideDown();"},
+  "8" : {"question": "Display or hide the matched elements with a sliding motion(скользящее движение).", "rightAnswer": ".slideToggle();"},
+  "9" : {"question": "Hide the matched elements with a sliding motion(скользящее движение).", "rightAnswer": ".slideUp();"}
 }
