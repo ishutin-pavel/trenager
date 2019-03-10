@@ -130,10 +130,9 @@ $("#answer_form").submit(function() {
 
    var userAnswer = $(".userAnswer").val();
 
-   userAnswer = del_spaces(userAnswer);//удаления пробелов
-   rightAnswer = del_spaces(task.rightAnswer);//удаления пробелов
-
-   console.log( $( this ).serialize() );
+   //Удаляем пробелы и переводим в нижний регистр
+   userAnswer = del_spaces(userAnswer).toUpperCase();
+   rightAnswer = del_spaces(task.rightAnswer).toUpperCase();
 
    if ( userAnswer == rightAnswer ){
 
