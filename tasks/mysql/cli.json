@@ -5,7 +5,8 @@
   "4" : {"question": "Выйти из MySQL", "rightAnswer": "exit"},
   "5" : {"question": "Вывести список всех БД", "rightAnswer": "show databases;"},
   "6" : {"question": "Создать БД db_name", "rightAnswer": "CREATE DATABASE db_name;"},
-  "7" : {"question": "Выбрать БД 'db_name'", "rightAnswer": "use db_name;"},
-  "8" : {"question": "Вывести список таблиц текущей БД", "rightAnswer": "show tables;"},
-  "9" : {"question": "Создать дамп БД 'db_name'. Пользователь 'root'. Положить ~/mysql/db_name.sql", "rightAnswer": "mysqldump -u root db_name > ~/mysql/db_name.sql;"}
+  "7" : {"question": "Удалить БД db_name", "rightAnswer": "DROP DATABASE db_name;"},
+  "8" : {"question": "Выбрать БД 'db_name'", "rightAnswer": "use db_name;"},
+  "9" : {"question": "Вывести список таблиц текущей БД", "rightAnswer": "show tables;"},
+  "10" : {"question": "Создать дамп БД 'db_name'. Пользователь 'root'. Положить ~/mysql/db_name.sql", "rightAnswer": "mysqldump -u root db_name > ~/mysql/db_name.sql;"}
 }
