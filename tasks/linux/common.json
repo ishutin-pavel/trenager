@@ -21,5 +21,9 @@
   "20" : {"question": "Найти 'the' в файле index.html, пронумеровать строки", "rightAnswer": "grep -n 'the' index.html"},
   "21" : {"question": "Поиск в тексте файла index.html по регулярному выражению [hijk]", "rightAnswer": "grep -E '[hijk]' index.html"},
   "22" : {"question": "Поиск в текущей директории по имени файла index.html", "rightAnswer": "find . -name index.html"},
-  "23" : {"question": "Поиск в папке folder по имени файла '*.psd'", "rightAnswer": "find folder -name '*.psd'"}
+  "23" : {"question": "Поиск в папке folder по имени файла '*.psd'", "rightAnswer": "find folder -name '*.psd'"},
+  "24" : {"question": "Оператор перенаправления вывода", "rightAnswer": ">"},
+  "25" : {"question": "Создать пустой файл file.txt с помощью оператора перенаправления вывода", "rightAnswer": "> file.txt"},
+  "26" : {"question": "Команда создания пустых файлов", "rightAnswer": "touch"},
+  "27" : {"question": "Создать пустые файлы: index.php header.php footer.php", "rightAnswer": "touch index.php header.php footer.php"}
 }
