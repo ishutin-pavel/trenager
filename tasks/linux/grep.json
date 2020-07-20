@@ -1,0 +1,5 @@
+{
+  "1" : {"question": "Команда поиска по содержимому в текстовый файлах", "rightAnswer": "grep"},
+  "2" : {"question": "Найти 'the' в файле index.html, пронумеровать строки", "rightAnswer": "grep -n 'the' index.html"},
+  "3" : {"question": "Поиск в тексте файла index.html по регулярному выражению [hijk]", "rightAnswer": "grep -E '[hijk]' index.html"}
+}

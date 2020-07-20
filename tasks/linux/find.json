@@ -1,4 +1,6 @@
 {
   "1" : {"question": "Поиск в текущей директории по имени файла index.html", "rightAnswer": "find . -name index.html"},
-  "2" : {"question": "Поиск в папку folder по имени файла '*.psd'", "rightAnswer": "find folder -name '*.psd'"}
+  "2" : {"question": "Поиск в текущей директории по имени файла без учета регистра index.html", "rightAnswer": "find . -iname index.html"},
+  "3" : {"question": "Поиск в текущей директории по ЧАСТИ имени файла index", "rightAnswer": "find . -name index*"},
+  "4" : {"question": "Поиск в папке folder по имени файла '*.psd'", "rightAnswer": "find folder -name '*.psd'"}
 }

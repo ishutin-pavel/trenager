@@ -1,0 +1,10 @@
+{
+"1" : {"question": "Глобальный массив сервер", "rightAnswer": "$_SERVER[]"},
+"2" : {"question": "Глобальный массив куки", "rightAnswer": "$_COOKIE[]"},
+"3" : {"question": "Глобальный массив post-запроса", "rightAnswer": "$_POST[]"},
+"4" : {"question": "Глобальный массив get-запроса", "rightAnswer": "$_GET[]"},
+"5" : {"question": "Глобальный массив файлы", "rightAnswer": "$_FILES[]"},
+"6" : {"question": "Глобальный массив post+get+cooke+files", "rightAnswer": "$_REQUEST[]"},
+"7" : {"question": "Вывести на экран глобальный массив post+get+cooke+files", "rightAnswer": "print_r($REQUEST)"}
+}
+

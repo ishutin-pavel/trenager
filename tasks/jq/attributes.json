@@ -1,7 +1,7 @@
 {
-"1" : {"question": "Get the value of an attribute for the first element in the set of matched elements or set one or more attributes for every matched element.", "rightAnswer": ".attr();"},
-"2" : {"question": "Get the value of a property(свойство) for the first element in the set of matched elements or set one or more properties(свойства) for every matched element.", "rightAnswer": ".prop();"},
-"3" : {"question": "Remove an attribute from each element in the set of matched elements.", "rightAnswer": ".removeAttr();"},
-"4" : {"question": "Remove a property(свойство) for the set of matched elements.", "rightAnswer": ".removeProp();"},
-"5" : {"question": "Get the current value(значение) of the first element in the set of matched elements or set the value(значение) of every matched element.", "rightAnswer": ".val();"}
+"1" : {"question": "Исходное значение атрибута: получить/установить.", "rightAnswer": ".attr();"},
+"2" : {"question": "Свойство атрибута: получить/установить.", "rightAnswer": ".prop();"},
+"3" : {"question": "Удалить атрибут.", "rightAnswer": ".removeAttr();"},
+"4" : {"question": "Удалить свойство.", "rightAnswer": ".removeProp();"},
+"5" : {"question": "Текущее значение атрибута: получить/установить.", "rightAnswer": ".val();"}
 }

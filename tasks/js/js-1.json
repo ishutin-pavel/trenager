@@ -1,0 +1,6 @@
+{
+"1" : {"question": "Выбрать первый элемент с .box", "rightAnswer": "document.querySelector('.box');"},
+"2" : {"question": "Выбрать все элементы .box", "rightAnswer": "document.querySelectorAll('.box');"},
+"3" : {"question": "Cкрыть все элементы с .box", "rightAnswer": "document.querySelectorAll('.box').forEach(box => { box.style.display = 'none' });"}
+}
+

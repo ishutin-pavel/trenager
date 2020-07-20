@@ -2,5 +2,10 @@
   "1" : {"question": "Вывести историю", "rightAnswer": "git log"},
   "2" : {"question": "Переключиться на коммит с контрольной суммой 9ec030d", "rightAnswer": "git checkout 9ec030d"},
   "3" : {"question": "Переключиться обратно на master", "rightAnswer": "git checkout master"},
-  "4" : {"question": "Переключиться на коммит(9ec030d), чтобы продолжить работу с него, создав новую ветку new-line", "rightAnswer": "git checkout -b new-line 9ec030d"}
+  "4" : {"question": "Название указателя на снимок последнего коммита, родителя следующего.", "rightAnswer": "HEAD"},
+  "5" : {"question": "Переключиться на коммит(9ec030d), чтобы продолжить работу с него, создав новую ветку new-line", "rightAnswer": "git checkout -b new-line 9ec030d"},
+  "6" : {"question": "Переместить ветку на коммит '9ec030d', не изменяя Индекс, ни Рабочий Каталог.", "rightAnswer": "git reset --soft 9ec030d"},
+  "7" : {"question": "Переместить ветку на коммит '9ec030d', не изменяя Рабочий Каталог, но обновить Индекс содержимым данного коммита.", "rightAnswer": "git reset --mixed 9ec030d"},
+  "8" : {"question": "Переместить ветку на коммит '9ec030d', c изменением Рабочего Каталога, и с обновлением Индекса содержимым данного коммита.", "rightAnswer": "git reset --hard 9ec030d"},
+  "9" : {"question": "Исключить файл index.html из области индексирования. / Скопировать файл index.html из HEAD в Индекс. / Противоположное действие команде 'git add index.html'", "rightAnswer": "git reset HEAD index.html"},
 }

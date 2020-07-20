@@ -2,6 +2,5 @@
   "1" : {"question": "Показать содержимое текущей папки", "rightAnswer": "ls"},
   "2" : {"question": "ls один файл в строке", "rightAnswer": "ls -l"},
   "3" : {"question": "ls не игнорировать скрытые файлы начитающиеся с точки", "rightAnswer": "ls -a"},
-  "4" : {"question": "ls показать всё вложенное содержимое рекурсивно", "rightAnswer": "ls -R"},
-  "5" : {"question": "обратная сортировка", "rightAnswer": "ls -r"}
+  "4" : {"question": "ls показать всё вложенное содержимое рекурсивно", "rightAnswer": "ls -R"}
 }

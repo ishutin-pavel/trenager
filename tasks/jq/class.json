@@ -1,0 +1,6 @@
+{
+"1" : {"question": "Функция: добавить класс", "rightAnswer": ".addClass();"},
+"2" : {"question": "Функция: удалить класс", "rightAnswer": ".removeClass();"},
+"3" : {"question": "Функция: переключить класс", "rightAnswer": ".toggleClass();"},
+"4" : {"question": "Функция: проверить наличие класса", "rightAnswer": ".hasClass();"}
+}

@@ -2,7 +2,7 @@
   "1" : {"question": "Создать новый репозиторий", "rightAnswer": "git init"},
   "2" : {"question": "Название файла со списком игнорирования", "rightAnswer": ".gitignore"},
   "3" : {"question": "Добавить все файлы в область индексирования", "rightAnswer": "git add ."},
-  "4" : {"question": "Исключить файл index.html из области индексирования", "rightAnswer": "git reset HEAD index.html"},
+  "4" : {"question": "Исключить файл index.html из области индексирования. Скопировать файл index.html из HEAD в Индекс.", "rightAnswer": "git reset HEAD index.html"},
   "5" : {"question": "Создать коммит с комментарием 'first commit'", "rightAnswer": "git commit -m 'first commit'"},
   "6" : {"question": "Показать статус", "rightAnswer": "git status"},
   "7" : {"question": "Показать разницу между последним коммитом и текущим состоянием (не проиндексированными файлами).", "rightAnswer": "git diff"},

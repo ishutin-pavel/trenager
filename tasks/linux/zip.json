@@ -1,13 +1,13 @@
 {
-  "1" : {"question": "Струкрута команды zip", "rightAnswer": "zip options z_name file file"},
-  "2" : {"question": "Добавить file.txt в z.zip (создать если нужно)", "rightAnswer": "zip z file.txt"},
-  "3" : {"question": "Удалить файл file.txt из архива z.zip", "rightAnswer": "zip -d z file.txt"},
-  "4" : {"question": "Архивировать всё файлы в текущей директории.", "rightAnswer": "zip z *"},
-  "5" : {"question": "Архивировать текущую папку. Включая вложенные.", "rightAnswer": "zip -r z ."},
-  "6" : {"question": "Архивировать текущую папку. Исключить '*.zip'.", "rightAnswer": "zip -r z . -x '*.zip'"},
-  "7" : {"question": "Архивировать текущую папку. Исключить папку 'docs/*' (для вложенных указывать полный путь).", "rightAnswer": "zip -r z . -x 'docs/*'"},
-  "8" : {"question": "Архивировать текущую папку. Разбить архив на части по 10Мб ( k=KB, m=MB, g=GB, t=TB).", "rightAnswer": "zip -r z . -s 10m"},
-  "9" : {"question": "Архивировать текущую папку. Задать пароль 123.", "rightAnswer": "zip -r z . -P 123"},
-  "10" : {"question": "Извлечь все содержимое архива z.zip в текущий каталог.", "rightAnswer": "unzip z"},
-  "11" : {"question": "Извлечь все содержимое архива z.zip в tmp", "rightAnswer": "unzip -d tmp z"}
+  "1" : {"question": "Струкрута команды zip", "rightAnswer": "zip -options name file file -xi"},
+  "2" : {"question": "Добавить файл 'file' в архив 'name' (создать если нужно)", "rightAnswer": "zip name file"},
+  "3" : {"question": "Удалить файл 'file' из архива 'name' ", "rightAnswer": "zip -d name file"},
+  "4" : {"question": "Архивировать всё файлы в текущей директории.", "rightAnswer": "zip name *"},
+  "5" : {"question": "Архивировать текущую папку. Включая вложенные.", "rightAnswer": "zip -r name ."},
+  "6" : {"question": "Архивировать текущую папку. Исключить '*.zip'.", "rightAnswer": "zip -r name . -x '*.zip'"},
+  "7" : {"question": "Архивировать текущую папку. Исключить папку 'docs/*' (для вложенных указывать полный путь).", "rightAnswer": "zip -r name . -x 'docs/*'"},
+  "8" : {"question": "Архивировать текущую папку. Разбить архив на части по 10Мб ( k=KB, m=MB, g=GB, t=TB).", "rightAnswer": "zip -r -s 10m name ."},
+  "9" : {"question": "Архивировать текущую папку. Задать пароль 123.", "rightAnswer": "zip -r  -P 123 name ."},
+  "10" : {"question": "Извлечь все содержимое архива name в текущий каталог.", "rightAnswer": "unzip name"},
+  "11" : {"question": "Извлечь все содержимое архива name в tmp", "rightAnswer": "unzip -d tmp name"}
 }

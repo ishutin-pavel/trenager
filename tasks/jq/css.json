@@ -1,0 +1,5 @@
+{
+"1" : {"question": "Свойство CSS: получить/установить значение.", "rightAnswer": ".css();"},
+"5" : {"question": "CSS ширина: получить/установить", "rightAnswer": ".width();"},
+"6" : {"question": "CSS высота: получить/установить", "rightAnswer": ".height();"}
+}
