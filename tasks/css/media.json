@@ -1,5 +1,5 @@
 {
-"1" : {"question": "Введите 10 раз @media через пробел", "rightAnswer": "@media @media @media @media @media @media @media @media @media @media"},
+"1" : {"question": "Введите 3 раза @media через пробел", "rightAnswer": "@media @media @media"},
 "2" : {"question": "Стиль для < 1200px ", "rightAnswer": "@media (max-width: 1200px) {}"},
 "3" : {"question": "Стиль для < 992px", "rightAnswer": "@media (max-width: 992px) {}"},
 "4" : {"question": "Стиль для < 768px", "rightAnswer": "@media (max-width: 768px) {}"},

@@ -16,7 +16,7 @@ var allTasks = {};//Объект для заданий
 */
 function clearMessage() {
   $('.message').hide();
-  $('.userAnswer').val("");
+  //$('.userAnswer').val("");
 }
 
 /*
@@ -44,6 +44,7 @@ function getAllTasks() {
 
 }
 
+
 /*
 * Функция обновления задания
 */
@@ -55,6 +56,7 @@ function updateTask() {
   $(".question").text(task.question);
 
 }//updateTask
+
 
 /*
 * Функция Запуск урока
@@ -90,7 +92,7 @@ function nextQuestion() {
 
   if(count == count_max) {
 
-    alert("Все задания выполнены!");
+    //alert("Все задания выполнены!");
 
     count = 1;
 
@@ -120,6 +122,7 @@ function del_spaces(str)
   return str;
 }
 
+
 /*
 * Проверка ответа
 */
@@ -136,6 +139,7 @@ $("#answer_form").submit(function() {
    if ( userAnswer == rightAnswer ){
 
      setTimeout(clearMessage, 300);//Очистка подсказки и поля для ввода
+     $('.userAnswer').val("");//Очистка поля для ввода
 
      function history() {
 
@@ -143,7 +147,7 @@ $("#answer_form").submit(function() {
 
        $(".history .history__item:first-child").hide().slideDown('fast');//анимация
 
-       $(".history .history__item:nth-child(3)").remove();//удаляем лишнии блоки
+       $(".history .history__item:nth-child(5)").remove();//удаляем лишнии блоки
 
      }//add history
 
