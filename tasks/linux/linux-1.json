@@ -1,0 +1,4 @@
+{
+  "1" : {"question": "Перенаправить вывод команды ls в file.txt. Создаст или перезапишет файл.", "rightAnswer": "ls > file.txt"},
+  "2" : {"question": "Дописать вывод команды в существующий файл", "rightAnswer": "ls >> file.txt"},
+}

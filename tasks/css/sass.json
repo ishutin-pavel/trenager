@@ -1,0 +1,4 @@
+{
+"1" : {"question": "Создать mixin clearfix", "rightAnswer": "@mixin clearfix() {}"},
+"2" : {"question": "Применить mixin clearfix", "rightAnswer": "@include clearfix();"}
+}

@@ -1,0 +1,3 @@
+{
+  "1" : {"question": "INSERT INTO table_name ( id, keyword ) VALUES ( 1 , 'word' );", "rightAnswer": "INSERT INTO table_name ( id, keyword ) VALUES ( 1 , 'word' );"}
+}

@@ -1,0 +1,23 @@
+{
+  "1" : {"question": "Целые числа: -128 .. +127", "rightAnswer": "TINYINT"},
+  "2" : {"question": "Целые числа: -32 768 .. 32 767", "rightAnswer": "SMALLINT"},
+  "3" : {"question": "Целые числа: -8 388 608 .. 8 388 607", "rightAnswer": "MEDIUMINT"},
+  "4" : {"question": "Целые числа: -2 147 483 648 .. 2 147 483 647", "rightAnswer": "INT"},
+  "5" : {"question": "Целые числа: -9 233 372 036 854 775 808 .. 9 233 382 036 854 775 807", "rightAnswer": "BIGINT"},
+  "6" : {"question": "Вещественные числа: Число с плавающей точкой небольшой точности", "rightAnswer": "FLOAT"},
+  "7" : {"question": "Вещественные числа: Число с плавающей точкой двойной точности", "rightAnswer": "DOUBLE REAL"},
+  "8" : {"question": "Вещественные числа: Дробное число, хранящееся в виде строки", "rightAnswer": "DECIMAL NUMERIC"},
+  "9" : {"question": "Строка: до 255 символов", "rightAnswer": "TINYTEXT"},
+  "10" : {"question": "Строка: 0 .. 65 535 символов", "rightAnswer": "VARCHAR"},
+  "11" : {"question": "Строка: до 65 535 символов", "rightAnswer": "TEXT"},
+  "12" : {"question": "Строка: до 16 777 215 символов", "rightAnswer": "MEDIUMTEXT"},
+  "13" : {"question": "Строка: до 4 294 967 295 символов", "rightAnswer": "LONGTEXT"},
+  "14" : {"question": "Бинарные данные: до 255 символов", "rightAnswer": "TINYBLOB"},
+  "15" : {"question": "Бинарные данные: до 65 535 символов", "rightAnswer": "BLOB"},
+  "16" : {"question": "Бинарные данные: до 16 777 215 символов", "rightAnswer": "MEDIUMBLOB"},
+  "17" : {"question": "Бинарные данные: до 4 294 967 295 символов", "rightAnswer": "LONGBLOB"},
+  "18" : {"question": "Дата и время: ГГГГ-ММ-ДД", "rightAnswer": "DATE"},
+  "19" : {"question": "Дата и время: ЧЧ:ММ:СС", "rightAnswer": "TIME"},
+  "20" : {"question": "Дата и время: ГГГГ-ММ-ДД ЧЧ:ММ:СС", "rightAnswer": "DATETIME"},
+  "21" : {"question": "Дата и время: ГГГГ-ММ-ДД ЧЧ:ММ:СС автообновление", "rightAnswer": "TIMESTAMP"}
+}

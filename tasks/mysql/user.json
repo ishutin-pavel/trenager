@@ -1,0 +1,6 @@
+{
+  "1" : {"question": "CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';", "rightAnswer": "CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';"},
+  "2" : {"question": "GRANT ALL PRIVILEGES ON * . * TO 'user'@'localhost';", "rightAnswer": "GRANT ALL PRIVILEGES ON * . * TO 'user'@'localhost';"},
+  "3" : {"question": "FLUSH PRIVILEGES;", "rightAnswer": "FLUSH PRIVILEGES;"},
+  "3" : {"question": "DROP USER 'user'@'localhost';", "rightAnswer": "DROP USER 'user'@'localhost';"}
+}

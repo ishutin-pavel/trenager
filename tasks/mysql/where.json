@@ -1,0 +1,12 @@
+{
+  "1" : {"question": "где id равно 100", "rightAnswer": "WHERE id = 100;"},
+  "2" : {"question": "где id равно 100 и 50", "rightAnswer": "WHERE id = 100 AND id = 50;"},
+  "3" : {"question": "где id равно 100 или 50", "rightAnswer": "WHERE id = 100 OR id = 50;"},
+  "4" : {"question": "где id больше 100", "rightAnswer": "WHERE id > 100;"},
+  "5" : {"question": "где id меньше 100", "rightAnswer": "WHERE id < 100;"},
+  "6" : {"question": "где id не равно 100", "rightAnswer": "WHERE id <> 100;"},
+  "7" : {"question": "где id меньше либо равно 100", "rightAnswer": "WHERE id <= 100;"},
+  "8" : {"question": "где id больше либо равно 100", "rightAnswer": "WHERE id >= 100;"},
+  "9" : {"question": "где id между 50 и 100", "rightAnswer": "WHERE id BETWEEN 50 AND 100;"},
+  "10" : {"question": "где id НЕ между 50 и 100", "rightAnswer": "WHERE id NOT BETWEEN 50 AND 100;"}
+}

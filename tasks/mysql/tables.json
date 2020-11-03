@@ -1,0 +1,10 @@
+{
+  "1" : {"question": "Создать таблицу table_name", "rightAnswer": "CREATE TABLE table_name;"},
+  "2" : {"question": "Удалить таблицу table_name", "rightAnswer": "DROP TABLE table_name;"},
+  "2" : {"question": "Вывести код для создания таблицы table_name", "rightAnswer": "SHOW CREATE TABLE table_name;"},
+  "3" : {"question": "CREATE TABLE Customers (id SERIAL, name VARCHAR(100), PRIMARY KEY (id)) ENGINE InnoDB CHARACTER SET utf8;", "rightAnswer": "CREATE TABLE Customers (id SERIAL, name VARCHAR(100), PRIMARY KEY (id)) ENGINE InnoDB CHARACTER SET utf8;"},
+  "4" : {"question": "CREATE TABLE Customers (id SERIAL, phone VARCHAR(20), PRIMARY KEY (id)) ENGINE InnoDB CHARACTER SET utf8;", "rightAnswer": "CREATE TABLE Customers (id SERIAL, phone VARCHAR(20), PRIMARY KEY (id)) ENGINE InnoDB CHARACTER SET utf8;"},
+  "5" : {"question": "CREATE TABLE Customers (id SERIAL, address VARCHAR(150), PRIMARY KEY (id)) ENGINE InnoDB CHARACTER SET utf8;", "rightAnswer": "CREATE TABLE Customers (id SERIAL, address VARCHAR(150), PRIMARY KEY (id)) ENGINE InnoDB CHARACTER SET utf8;"},
+  "6" : {"question": "CREATE TABLE Customers (id SERIAL, rating INT, PRIMARY KEY (id)) ENGINE InnoDB CHARACTER SET utf8;", "rightAnswer": "CREATE TABLE Customers (id SERIAL, rating INT, PRIMARY KEY (id)) ENGINE InnoDB CHARACTER SET utf8;"},
+  "7" : {"question": "SERIAL - это BIGINT UNSIGNED NOT NULL AUTO_INCREMENT UNIQUE. Введите ок.", "rightAnswer": "ok"}
+}

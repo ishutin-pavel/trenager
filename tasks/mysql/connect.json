@@ -1,0 +1,6 @@
+{
+  "1" : {"question": "Подключиться к MySQL. Хост: 'localhost'. Пользователь 'root'. Запросить пароль.", "rightAnswer": "mysql -h localhost -u root -p"},
+  "2" : {"question": "Подключиться к локальной MySQL. Пользователь 'root' без пароля", "rightAnswer": "mysql -u root"},
+  "3" : {"question": "Git Bash Windows: Подключиться к локальной MySQL. Пользователь 'root' без пароля из ", "rightAnswer": "winpty mysql -u root"},
+  "4" : {"question": "Выйти из MySQL", "rightAnswer": "exit"}
+}

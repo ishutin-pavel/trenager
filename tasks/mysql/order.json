@@ -1,0 +1,4 @@
+{
+  "1" : {"question": "Сортировать по столбцу stolbec по ВОЗРАСТАНИЮ (по умолчанию)", "rightAnswer": "ORDER BY stolbec ASC;"},
+  "2" : {"question": "Сортировать по столбцу stolbec по убыванию", "rightAnswer": "ORDER BY stolbec DESC;"}
+}

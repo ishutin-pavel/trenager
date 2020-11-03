@@ -1,0 +1,4 @@
+{
+  "1" : {"question": "Показать всё содержимое таблицы wp_users", "rightAnswer": "select * from wp_users;"},
+  "2" : {"question": "Показать всё содержимое таблицы wp_users удалить ПОВТОРЯЮЩИЕСЯ строки", "rightAnswer": "SELECT DISTINCT * from wp_users;"}
+}

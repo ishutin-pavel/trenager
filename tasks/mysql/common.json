@@ -1,0 +1,9 @@
+{
+  "1" : {"question": "Вывести список всех БД", "rightAnswer": "SHOW databases;"},
+  "2" : {"question": "Создать БД db_name", "rightAnswer": "CREATE DATABASE db_name;"},
+  "3" : {"question": "Удалить БД db_name", "rightAnswer": "DROP DATABASE db_name;"},
+  "4" : {"question": "Изменить БД db_name", "rightAnswer": "ALTER DATABASE db_name;"},
+  "5" : {"question": "Выбрать БД 'db_name'", "rightAnswer": "USE db_name;"},
+  "6" : {"question": "Вывести список таблиц текущей БД", "rightAnswer": "SHOW tables;"},
+  "7" : {"question": "Вывести структуру таблицы oc_order", "rightAnswer": "DESCRIBE oc_order;"}
+}
